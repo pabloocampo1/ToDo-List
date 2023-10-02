@@ -2,7 +2,7 @@
   "name": "react-task-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "pabloocampo1.github.io/ToDo-List",
+  "homepage": "https://pabloocampo1.github.io/ToDo-List",
   "type": "module",
   "scripts": {
     "dev": "vite",
