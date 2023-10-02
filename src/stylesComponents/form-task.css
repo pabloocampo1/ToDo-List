@@ -1,0 +1,31 @@
+
+.form-task form{
+    margin:20px 0 20px 0;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border:3px solid rgb(53, 48, 131) ;
+    border-radius:  5px 0 0 5px;
+    outline: none;
+    padding-left: 10px; 
+    letter-spacing: .5px; 
+}
+input::placeholder{
+    text-align: center;
+    color: rgb(53, 48, 131);
+    font-weight: 400;  
+}
+button{
+    width: 60px;
+    height: 30px;
+    border:none;
+    background-color: rgb(53, 48, 131);
+    color: rgb(245, 244, 243);
+    letter-spacing: 1px;
+    border-radius:  0px 5px 5px 0px;
+}

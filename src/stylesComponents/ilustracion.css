@@ -1,0 +1,15 @@
+.container-ilustraccion{
+    width: 400px;
+    height: 550px;
+    background-image: url('https://image.freepik.com/vector-gratis/diseno-banner-lista-tareas-nina-sostiene-lapiz-anota-tareas-completadas-tiempo-concepto-gestion-tiempo_173706-112.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.container-ilustraccion h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    color: rgb(128, 138, 232);
+}
+

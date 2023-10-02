@@ -1,0 +1,86 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media (max-width:660px) {
+    .container-ilustraccion{
+        display: none;
+    }
+    
+}
+@media (min-width:660px) {
+    .container-task{
+        width: 350px;
+        height: 650px;
+    }
+    .content-tasks {
+        width: 320px;
+    }
+    .form-task form input{
+        width: 220px;
+        height: 35px;
+    }
+    .form-task form button{
+        width: 60px;
+        height: 35px;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .container-ilustraccion{
+        width: 100%;  
+    }
+    .container-task{
+        width: 410px;
+        height: 650px;
+    }
+    
+}
+@media (min-width: 1140px) {
+    .App{
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    .container-task{
+        width: 500px;
+        height: 690px;
+    }
+    .form-task form input{
+        width: 250px;
+        height: 35px;
+    }
+    .form-task form button{
+        width: 90px;
+        height: 35px;
+    }
+    .content-tasks {
+        width: 420px;
+    }
+    .container-ilustraccion h1{
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+    
+}
+@media (min-width: 2300px) {
+    .App{
+        grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
+    }
+    .container-task{
+        width: 600px;
+        height: 790px;
+    }
+    .content-tasks {
+        width: 520px;
+    }
+    .container-ilustraccion h1{
+        padding-top: 20px;
+        padding-left: 240px;
+    }
+}
