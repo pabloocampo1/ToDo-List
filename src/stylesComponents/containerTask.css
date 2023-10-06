@@ -2,9 +2,9 @@
     position: relative;
     width: 310px;
     height: 550px;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(255, 255, 255);
     border-radius:10px ;
-    box-shadow: 1px 1px 10px rgb(119, 113, 206);
+    box-shadow: 1px 1px 20px rgb(76, 76, 77);
 }
 .container-task h2{
     color: rgb(6, 6, 6);

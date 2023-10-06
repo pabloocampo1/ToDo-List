@@ -4,6 +4,7 @@ import { useReducer, useRef } from "react"
 import ListTask from "./ListTask";
 import AddTask from './addTask'
 import '../stylesComponents/form-task.css'
+import MesageNoTask from "./mesageNoTask";
 //import MesageNoTask from './mesageNoTask'
 
 
@@ -63,7 +64,11 @@ const FormTask = () => {
                     Save
                 </button>
             </form>
-            <ListTask task={task} dispatch={dispatch} />
+            {typeof task == "undefined" ? (
+                <MesageNoTask />
+            ) : (
+                <ListTask task={task} dispatch={dispatch} />
+            ) }
             <AddTask inputRef={inputRef}/>
             
    

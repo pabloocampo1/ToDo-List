@@ -1,13 +1,10 @@
 .no-task-me{
     width: 100%;
-    height: 100px;
-    
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
 }
-.no-task-me span{
-    color: rgb(23, 23, 61);
-    font-weight: bold;
-    font-size: 20px;
+.no-task-me img{
+    width: 250px;
 }

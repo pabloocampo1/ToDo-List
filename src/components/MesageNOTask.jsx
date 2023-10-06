@@ -1,11 +1,12 @@
 import '../stylesComponents/no-task-mesage.css'
+import miLogo from '../assets/undraw_completed_m9ci.svg'
 
-const mesageNoTask = () => {
+const MesageNoTask = () => {
   return (
     <div className='no-task-me'>
-      <span>There are no tasks</span>
+      <img src={miLogo} alt="" />
     </div>
   )
 }
 
-export default mesageNoTask
+export default MesageNoTask
